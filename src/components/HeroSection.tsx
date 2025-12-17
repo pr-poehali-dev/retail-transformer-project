@@ -48,10 +48,13 @@ const HeroSection = () => {
           </div>
 
           <div className="relative animate-scale-in">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center border-2 border-primary/10">
-              <div className="w-full h-full rounded-2xl bg-muted/30 flex items-center justify-center">
-                <Icon name="User" size={120} className="text-muted-foreground/30" />
-              </div>
+            <div className="aspect-[3/4] rounded-2xl overflow-hidden border-2 border-primary/10 shadow-2xl">
+              <img 
+                src="https://cdn.poehali.dev/files/Изображение WhatsApp 2025-10-24 в 12.17.11_7fb21fbb.jpg" 
+                alt="Александр Кузиков"
+                className="w-full h-full object-cover object-top"
+                style={{ objectPosition: 'center 15%' }}
+              />
             </div>
           </div>
         </div>
