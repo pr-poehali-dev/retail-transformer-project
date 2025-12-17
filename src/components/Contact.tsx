@@ -26,7 +26,7 @@ const Contact = () => {
 
   const contacts = [
     { icon: 'Phone', label: 'Телефон', value: '+7 968 958 91 86', href: 'tel:+79689589186' },
-    { icon: 'Mail', label: 'Email', value: 'a.kuzikov@example.com', href: 'mailto:a.kuzikov@example.com' },
+    { icon: 'Mail', label: 'Email', value: 'alexander.kuzikov@mail.ru', href: 'mailto:alexander.kuzikov@mail.ru' },
     { icon: 'Send', label: 'Telegram', value: '@aleksandr_kuzikov', href: 'https://t.me/aleksandr_kuzikov' }
   ];
 
