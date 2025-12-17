@@ -18,23 +18,34 @@ const Experience = () => {
     {
       company: 'MODIS',
       position: 'Директор по маркетингу',
-      period: '2020 - 2022',
-      description: 'Цифровая трансформация маркетинга и внедрение AI-решений',
+      period: '2018 - 2021',
+      description: 'Выстроил маркетинг с нуля: запустил омниканал, внедрил Data-driven подход и автоматизировал процессы, увеличив эффективность в 2 раза',
       achievements: [
-        { label: 'Рост продаж', value: '+35%', icon: 'TrendingUp' },
-        { label: 'ROI кампаний', value: '+45%', icon: 'Target' },
-        { label: 'Автоматизация', value: '70%', icon: 'Cpu' }
+        { label: 'Рост продаж', value: 'x2', icon: 'TrendingUp' },
+        { label: 'ROI кампаний', value: '+120%', icon: 'Target' },
+        { label: 'Команда', value: '25 человек', icon: 'Users' }
       ]
     },
     {
-      company: 'O\'STIN / SELA',
+      company: 'O\'STIN',
       position: 'Руководитель отдела маркетинга',
-      period: '2015 - 2020',
-      description: 'Развитие бренд-стратегии и запуск омниканальных проектов',
+      period: '2016 - 2018',
+      description: 'Запустил e-commerce с нуля, внедрил CRM и Performance Marketing, что увеличило онлайн-продажи в 5 раз',
       achievements: [
-        { label: 'Рост LTV', value: '+40%', icon: 'UserPlus' },
-        { label: 'Онлайн-продажи', value: 'x3', icon: 'ShoppingCart' },
-        { label: 'NPS', value: '+25 п.п.', icon: 'Heart' }
+        { label: 'Онлайн-продажи', value: 'x5', icon: 'TrendingUp' },
+        { label: 'CRM база', value: '500K+', icon: 'Users' },
+        { label: 'Доля онлайн', value: '15%', icon: 'ShoppingCart' }
+      ]
+    },
+    {
+      company: 'SELA',
+      position: 'Руководитель digital-маркетинга',
+      period: '2014 - 2016',
+      description: 'Трансформировал digital из поддерживающей функции в драйвер роста, запустив Performance и контент-стратегию',
+      achievements: [
+        { label: 'Трафик', value: 'x4', icon: 'TrendingUp' },
+        { label: 'Конверсия', value: '+85%', icon: 'Target' },
+        { label: 'ROI digital', value: '+200%', icon: 'DollarSign' }
       ]
     }
   ];
