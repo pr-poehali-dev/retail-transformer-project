@@ -25,9 +25,9 @@ const Philosophy = () => {
         <div className="space-y-16">
           <div className="text-center space-y-6 animate-fade-in">
             <h2 className="text-4xl lg:text-5xl font-bold">
-              Не просто маркетинг.
+              МАРКЕТИНГ = ПРОДАЖИ
               <br />
-              <span className="text-primary">Это системная трансформация бизнеса</span>
+              <span className="text-primary">Системная трансформация бизнеса</span>
             </h2>
           </div>
 
