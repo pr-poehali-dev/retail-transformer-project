@@ -7,7 +7,7 @@ const Experience = () => {
     {
       company: 'Shopping Live',
       position: 'Директор по маркетингу и продажам',
-      period: '2022 - настоящее время',
+      period: '2021 - 2025',
       description: 'Построение интегрированной омниканальной системы продаж с нуля',
       achievements: [
         { label: 'Рост оборота', value: '+50%', icon: 'TrendingUp' },
