@@ -8,7 +8,7 @@ const Experience = () => {
       company: 'Shopping Live',
       position: 'Директор по маркетингу и продажам',
       period: '2021 - 2025',
-      description: 'Построение интегрированной омниканальной системы продаж с нуля',
+      description: 'Трансформировал маркетинг в омниканальную систему, запустив Live Commerce и внедрив AI, что привело к удвоению среднего чека и росту узнаваемости бренда',
       achievements: [
         { label: 'Рост оборота', value: '+50%', icon: 'TrendingUp' },
         { label: 'Снижение CAC', value: '-30%', icon: 'ArrowDown' },
