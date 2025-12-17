@@ -25,6 +25,17 @@ const Experience = () => {
         { label: 'ROI кампаний', value: '+120%', icon: 'Target' },
         { label: 'CRM база', value: '500K+', icon: 'Users' }
       ]
+    },
+    {
+      company: 'New Yorker, Charuel, RESERVED',
+      position: 'Руководитель по развитию / Операционный директор',
+      period: '2007 - 2014',
+      description: 'Осуществлял рыночную экспансию и закладывал операционные стандарты, управляя открытием сотен точек в России и СНГ, что обеспечивало рост выручки и формировало основу для дальнейшего масштабирования брендов',
+      achievements: [
+        { label: 'Открытие точек', value: '200+', icon: 'Store' },
+        { label: 'Рост выручки', value: '+300%', icon: 'TrendingUp' },
+        { label: 'Регионы СНГ', value: '15', icon: 'MapPin' }
+      ]
     }
   ];
 
