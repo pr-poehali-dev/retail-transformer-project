@@ -6,35 +6,43 @@ const Experience = () => {
   const experiences = [
     {
       company: 'Shopping Live',
-      position: 'Директор по маркетингу и продажам',
-      period: '2021 - 2025',
-      description: 'Трансформировал маркетинг в омниканальную систему, запустив Live Commerce и внедрив AI, что привело к удвоению среднего чека и росту узнаваемости бренда',
+      position: 'Director of Marketing & Sales',
+      period: '2021–2025',
+      description: 'Управление каналами: E-com, Live Commerce, Social Media, Offline',
       achievements: [
-        { label: 'Рост оборота', value: '+50%', icon: 'TrendingUp' },
-        { label: 'Снижение CAC', value: '-30%', icon: 'ArrowDown' },
-        { label: 'Команда', value: '40+ человек', icon: 'Users' }
+        { label: '+Avg', value: 'с 1.7 до 3.5', icon: 'TrendingUp' },
+        { label: 'Рост оборота', value: '+10%', icon: 'TrendingUp' },
+        { label: 'Brand Awareness', value: '+64%', icon: 'Target' },
+        { label: 'Новая ЦА', value: '+43%', icon: 'Users' },
+        { label: 'Retention', value: '+8%', icon: 'RefreshCw' },
+        { label: 'Бюджет контента', value: '-35%', icon: 'ArrowDown' },
+        { label: 'CTR', value: '+22%', icon: 'MousePointer' },
+        { label: 'Time-to-market', value: '-70%', icon: 'Zap' }
       ]
     },
     {
-      company: 'MODIS, O\'STIN, SELA',
-      position: 'Директор по маркетингу / Руководитель отдела маркетинга',
-      period: '2014 - 2021',
-      description: 'Выстроил маркетинг с нуля в MODIS, запустил e-commerce в O\'STIN (рост онлайн в 5 раз), трансформировал digital в драйвер роста в SELA',
+      company: 'MODIS / O\'STIN / SELA',
+      position: 'Marketing Director and Merchandising',
+      period: '2014–2021',
+      description: 'Системная трансформация маркетинга, продукта и розничных процессов',
       achievements: [
-        { label: 'Рост продаж', value: 'x2-x5', icon: 'TrendingUp' },
-        { label: 'ROI кампаний', value: '+120%', icon: 'Target' },
-        { label: 'CRM база', value: '500K+', icon: 'Users' }
+        { label: 'Рост продаж LFL', value: '+50%', icon: 'TrendingUp' },
+        { label: 'Рекламные затраты', value: '-50%', icon: 'ArrowDown' },
+        { label: 'Opex', value: '-20%', icon: 'ArrowDown' },
+        { label: 'Товарные остатки', value: '-15%', icon: 'Package' },
+        { label: 'CR', value: '+20%', icon: 'Target' },
+        { label: 'Адаптация персонала', value: 'x2', icon: 'Users' }
       ]
     },
     {
-      company: 'New Yorker, Charuel, RESERVED',
-      position: 'Руководитель по развитию / Операционный директор',
-      period: '2007 - 2014',
-      description: 'Осуществлял рыночную экспансию и закладывал операционные стандарты, управляя открытием сотен точек в России и СНГ, что обеспечивало рост выручки и формировало основу для дальнейшего масштабирования брендов',
+      company: 'New Yorker / Charuel / RESERVED',
+      position: 'Operations / Development',
+      period: '2007–2014',
+      description: '200+ точек | +300% выручки | 15 регионов СНГ',
       achievements: [
-        { label: 'Открытие точек', value: '200+', icon: 'Store' },
+        { label: 'Точки продаж', value: '200+', icon: 'Store' },
         { label: 'Рост выручки', value: '+300%', icon: 'TrendingUp' },
-        { label: 'Регионы СНГ', value: '15', icon: 'MapPin' }
+        { label: 'Регионы', value: '15', icon: 'MapPin' }
       ]
     }
   ];
@@ -70,18 +78,18 @@ const Experience = () => {
 
                 <p className="text-lg text-muted-foreground">{exp.description}</p>
 
-                <div className="grid md:grid-cols-3 gap-4 pt-4">
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
                   {exp.achievements.map((achievement, idx) => (
                     <div 
                       key={idx}
                       className="flex items-center gap-3 p-4 rounded-lg bg-muted/50 hover:bg-muted transition-colors"
                     >
-                      <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                        <Icon name={achievement.icon} className="text-primary" size={24} />
+                      <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                        <Icon name={achievement.icon} className="text-primary" size={20} />
                       </div>
                       <div>
-                        <div className="text-2xl font-bold text-primary">{achievement.value}</div>
-                        <div className="text-sm text-muted-foreground">{achievement.label}</div>
+                        <div className="text-xl font-bold text-primary">{achievement.value}</div>
+                        <div className="text-xs text-muted-foreground">{achievement.label}</div>
                       </div>
                     </div>
                   ))}

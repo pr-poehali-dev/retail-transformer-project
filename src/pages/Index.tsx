@@ -1,7 +1,10 @@
 import HeroSection from '@/components/HeroSection';
 import UniqueApproach from '@/components/UniqueApproach';
-import Experience from '@/components/Experience';
+import WhenToCall from '@/components/WhenToCall';
+import HowIWork from '@/components/HowIWork';
+import KeyMetrics from '@/components/KeyMetrics';
 import Philosophy from '@/components/Philosophy';
+import Experience from '@/components/Experience';
 import Contact from '@/components/Contact';
 
 const Index = () => {
@@ -9,8 +12,11 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <HeroSection />
       <UniqueApproach />
-      <Experience />
+      <WhenToCall />
+      <HowIWork />
+      <KeyMetrics />
       <Philosophy />
+      <Experience />
       <Contact />
     </div>
   );

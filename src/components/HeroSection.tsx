@@ -13,18 +13,30 @@ const HeroSection = () => {
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
-            <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Системный лидер ритейла
+            <div className="space-y-6">
+              <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
+                Александр Кузиков — системный антикризисный лидер ритейла.
               </h1>
-              <p className="text-2xl lg:text-3xl text-muted-foreground font-light">
-                Трансформирую бизнес через стратегию, операционную эффективность и креатив
+              <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
+                Я вхожу туда, где бизнес буксует, теряет деньги и людей, и пересобираю его в управляемую, прибыльную систему. Я — плечо собственника, когда тыла больше нет.
               </p>
             </div>
             
-            <div className="flex items-center gap-3 text-lg text-muted-foreground">
-              <Icon name="TrendingUp" className="text-primary" size={24} />
-              <p className="font-medium">18+ лет опыта. Выстраиваю процессы с нуля для роста продаж на 30-50%</p>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <Icon name="AlertTriangle" className="text-primary mt-1 flex-shrink-0" size={24} />
+                <p className="text-lg font-semibold text-foreground">Когда бизнес теряет деньги — я возвращаю контроль</p>
+              </div>
+              <div className="space-y-2 text-muted-foreground">
+                <p>• Пересобираю бизнес там, где решения больше не работают</p>
+                <p>• Системная трансформация маркетинга, продаж и команд</p>
+                <p>• Из хаоса — в управляемую прибыль</p>
+              </div>
+            </div>
+            
+            <div className="bg-primary/10 p-6 rounded-lg space-y-3">
+              <p className="text-lg font-bold text-foreground">15+ лет опыта</p>
+              <p className="text-muted-foreground">Останавливаю потери до –30% выручки, сокращаю путь к результату на 6 месяцев.</p>
             </div>
 
             <div className="flex flex-wrap gap-4">
@@ -33,8 +45,8 @@ const HeroSection = () => {
                 className="text-lg px-8"
                 onClick={() => scrollToSection('experience')}
               >
-                Смотреть кейсы и результаты
-                <Icon name="ArrowRight" className="ml-2" size={20} />
+                Смотреть результаты
+                <Icon name="TrendingUp" className="ml-2" size={20} />
               </Button>
               <Button 
                 size="lg" 
@@ -42,7 +54,8 @@ const HeroSection = () => {
                 className="text-lg px-8"
                 onClick={() => scrollToSection('contact')}
               >
-                Связаться
+                Обсудить задачу
+                <Icon name="MessageSquare" className="ml-2" size={20} />
               </Button>
             </div>
           </div>

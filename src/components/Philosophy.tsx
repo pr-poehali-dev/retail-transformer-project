@@ -20,29 +20,24 @@ const Philosophy = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-muted/30">
+    <section className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-16">
           <div className="text-center space-y-6 animate-fade-in">
             <h2 className="text-4xl lg:text-5xl font-bold">
               МАРКЕТИНГ = ПРОДАЖИ
-              <br />
-              <span className="text-primary">Системная трансформация бизнеса</span>
             </h2>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8 text-lg text-muted-foreground animate-fade-in" style={{ animationDelay: '200ms' }}>
             <p className="leading-relaxed">
-              Я не верю в изолированные решения. Настоящий рост возможен только через системную трансформацию — 
-              когда стратегия, данные, технологии и люди работают как единый механизм.
+              Я не верю в изолированные решения. Рост возможен только тогда, когда продукт, люди, данные и технологии работают как единый механизм.
             </p>
             <p className="leading-relaxed">
-              Мой подход основан на глубоком анализе данных, внедрении омниканальных систем и использовании 
-              AI для принятия решений. Но главное — я вижу потенциал в людях и умею выращивать команды, 
-              которые продолжают развивать бизнес после завершения проекта.
+              Я использую аналитику, омниканал и AI, но главное — я вижу потенциал в людях и умею собирать команды, которые продолжают развивать бизнес без моего постоянного присутствия.
             </p>
-            <p className="leading-relaxed font-medium text-foreground">
-              Я не просто улучшаю показатели — я создаю устойчивые системы роста.
+            <p className="leading-relaxed font-medium text-foreground text-xl">
+              Я не улучшаю показатели. Я создаю устойчивые системы роста.
             </p>
           </div>
 

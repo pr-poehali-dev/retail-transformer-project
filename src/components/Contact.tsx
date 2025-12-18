@@ -34,13 +34,13 @@ const Contact = () => {
     <section id="contact" className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 space-y-4 animate-fade-in">
-          <h2 className="text-4xl lg:text-5xl font-bold">
-            Готов вывести вашу компанию
+          <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
+            Если вам нужен не подрядчик,
             <br />
-            <span className="text-primary">на новый уровень</span>
+            <span className="text-primary">а плечо — давайте поговорим</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Свяжитесь со мной для обсуждения вашего проекта или консалтинговой поддержки
+            Я беру ответственность за результат, а не за процесс
           </p>
         </div>
 
@@ -67,14 +67,14 @@ const Contact = () => {
 
             <Card className="p-8 bg-primary/5 border-primary/20">
               <div className="space-y-4">
-                <h3 className="text-xl font-semibold">Ключевые сообщения</h3>
+                <h3 className="text-xl font-semibold">Что я делаю</h3>
                 <ul className="space-y-3">
                   {[
-                    'Системный интегратор и лидер',
-                    'Измеримая финансовая ценность',
-                    'Эксперт в digital-трансформации и AI',
-                    'Построение больших команд',
-                    'Практик, решающий сложные задачи'
+                    'Останавливаю потери до –30% выручки',
+                    'Сокращаю путь к результату на 6 месяцев',
+                    'Чищу и усиливаю команды',
+                    'Пересобираю системы маркетинга и продаж',
+                    'Возвращаю контроль и прибыль'
                   ].map((message, index) => (
                     <li key={index} className="flex items-start gap-2">
                       <Icon name="CheckCircle2" className="text-primary mt-1 flex-shrink-0" size={20} />
