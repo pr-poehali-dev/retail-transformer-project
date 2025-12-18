@@ -14,12 +14,8 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-6">
-              <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-                Александр Кузиков — системный антикризисный лидер ритейла.
-              </h1>
-              <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                Я вхожу туда, где бизнес буксует, теряет деньги и людей, и пересобираю его в управляемую, прибыльную систему. Я — плечо собственника, когда тыла больше нет.
-              </p>
+              <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-slate-800">Александр Кузиков </h1>
+              <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">Вхожу туда, где бизнес буксует, и делаю из него  прибыльную систему. </p>
             </div>
             
             <div className="space-y-4">
@@ -28,15 +24,15 @@ const HeroSection = () => {
                 <p className="text-lg font-semibold text-foreground">Когда бизнес теряет деньги — я возвращаю контроль</p>
               </div>
               <div className="space-y-2 text-muted-foreground">
-                <p>• Пересобираю бизнес там, где решения больше не работают</p>
-                <p>• Системная трансформация маркетинга, продаж и команд</p>
+                <p>• Работаю там, где решения больше не работают</p>
+                <p>• Трансформация маркетинга, продаж и команд</p>
                 <p>• Из хаоса — в управляемую прибыль</p>
               </div>
             </div>
             
             <div className="bg-primary/10 p-6 rounded-lg space-y-3">
               <p className="text-lg font-bold text-foreground">15+ лет опыта</p>
-              <p className="text-muted-foreground">Останавливаю потери до –30% выручки, сокращаю путь к результату на 6 месяцев.</p>
+              <p className="text-muted-foreground">Снижаю потери до –30% выручки и сокращаю путь к результату на 6 месяцев.</p>
             </div>
 
             <div className="flex flex-wrap gap-4">
