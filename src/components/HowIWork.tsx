@@ -32,9 +32,7 @@ const HowIWork = () => {
     <section className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 space-y-4 animate-fade-in">
-          <h2 className="text-4xl lg:text-5xl font-bold">
-            Как я работаю
-          </h2>
+          <h2 className="text-4xl lg:text-5xl font-bold">Как я работаю</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">

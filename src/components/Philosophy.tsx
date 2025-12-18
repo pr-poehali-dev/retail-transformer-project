@@ -30,13 +30,13 @@ const Philosophy = () => {
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8 text-lg text-muted-foreground animate-fade-in" style={{ animationDelay: '200ms' }}>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-center">
               Я не верю в изолированные решения. Рост возможен только тогда, когда продукт, люди, данные и технологии работают как единый механизм.
             </p>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-center">
               Я использую аналитику, омниканал и AI, но главное — я вижу потенциал в людях и умею собирать команды, которые продолжают развивать бизнес без моего постоянного присутствия.
             </p>
-            <p className="leading-relaxed font-medium text-foreground text-xl">
+            <p className="leading-relaxed font-medium text-foreground text-xl text-center">
               Я не улучшаю показатели. Я создаю устойчивые системы роста.
             </p>
           </div>

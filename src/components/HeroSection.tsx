@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-6">
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-slate-800">Александр Кузиков </h1>
+              <h1 className="lg:text-6xl leading-tight text-slate-800 font-extralight text-5xl">Александр Кузиков </h1>
               <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">Вхожу туда, где бизнес буксует, и делаю из него  прибыльную систему. </p>
             </div>
             

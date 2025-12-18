@@ -71,9 +71,7 @@ const Experience = () => {
                     <p className="text-lg text-primary font-medium">{exp.position}</p>
                     <p className="text-muted-foreground">{exp.period}</p>
                   </div>
-                  <Badge variant="secondary" className="text-sm px-4 py-2">
-                    Системная трансформация
-                  </Badge>
+                  <Badge variant="secondary" className="text-sm px-4 py-2">Работа с продуктом  и аналитикой</Badge>
                 </div>
 
                 <p className="text-lg text-muted-foreground">{exp.description}</p>

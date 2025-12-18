@@ -47,7 +47,7 @@ const KeyMetrics = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 bg-[#ffffff]">
           {metrics.map((metric, index) => (
             <Card 
               key={index}

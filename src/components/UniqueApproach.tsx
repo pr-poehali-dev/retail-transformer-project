@@ -32,9 +32,7 @@ const UniqueApproach = () => {
           <h2 className="text-3xl lg:text-4xl font-bold">
             Моя уникальность
           </h2>
-          <p className="text-2xl lg:text-3xl font-light text-foreground max-w-4xl mx-auto leading-relaxed">
-            Я не «маркетинг». Я — система, которая зарабатывает.
-          </p>
+          <p className="text-2xl lg:text-3xl font-light text-foreground max-w-4xl mx-auto leading-relaxed">Не просто «маркетинг»,  а система, которая зарабатывает.</p>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Моя сила — в соединении аналитики, креатива и психологии потребителя.
             Я не трачу бюджеты — я инвестирую только туда, где есть выхлоп.
